@@ -1,0 +1,9 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #eef2f5;
+}
+
+input, button {
+  font-family: inherit;
+}
