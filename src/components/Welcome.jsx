@@ -106,7 +106,7 @@ export default function Welcome({ carrentUser }) {
 
   return (
     <div className="welcome-container">
-      <h1>Welcome, {carrentUser.userName}</h1>
+      {/* <h1>Welcome, {carrentUser.userName}</h1> */}
       <div className="card">
         <p><strong>Email:</strong> {carrentUser.email}</p>
         <p><strong>Password:</strong> {carrentUser.password}</p>
