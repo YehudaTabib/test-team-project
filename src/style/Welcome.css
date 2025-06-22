@@ -69,3 +69,23 @@
   font-family: monospace;
   border-radius: 4px;
 }
+
+.workflow-summary {
+  margin-top: 40px;
+}
+
+.workflow-summary h2 {
+  color: #34495e;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.workflow-summary table code {
+  background: #eef;
+  padding: 2px 4px;
+  font-family: monospace;
+  display: block;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
