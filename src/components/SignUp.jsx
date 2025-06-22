@@ -35,6 +35,7 @@ export default function SignUp({ users, setUsers, setCurrentUser }) {
 
   return (
     <div className="signup-container">
+    <h1>Welcome to the Sign Up Page</h1>
       <h2>Sign Up</h2>
       <input type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
       <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
